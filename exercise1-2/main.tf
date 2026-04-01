@@ -16,8 +16,3 @@ resource "azurerm_resource_group" "training" {
   name     = var.training_rg_name
   location = "westeurope"
 }
-
-variable "training_rg_name" {
-  type = string
-
-}
